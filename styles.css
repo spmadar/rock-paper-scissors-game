@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: Nunito, sans-serif;
+}
+body {
+    background-color: #00356B;
+}
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #00356B;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+}
+
+.score-board {
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 4px;
+    text-align: center;
+    width: 150px;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: Asap, sans-serif;
+    position: relative;
+}
+
+.badge {
+    background: #B2DDCB;
+    color: black;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 30px;
+    left: -42px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 30px;
+    right: -80px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+    
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: Nunito, sans-serif;
+    padding: 10px;
+}
+
+.choices { 
+    margin-top: 60px 0;
+    text-align: center;
+}
+
+
+.choice {
+    border: 2px solid white;
+    height: 105px;
+    border-radius: 60px;
+    margin: 0 20px;
+    padding: 0px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #B2DDCB;
+}
+
+.green-glow {
+    border: 2px solid #4dcc7d ;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+    border: 2px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.gray-glow {
+    border: 2px solid #464647;
+    box-shadow: 0 0 10px #25292b;
+}
+
+
+
+
+
+
